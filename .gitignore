@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# 配置文件（包含API Key）
+config.py
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据文件
+assets/*.jpg
+assets/*.png
+assets/*.mp3
+assets/processed_debug.jpg
+
+# 系统文件
+.DS_Store
+Thumbs.db
