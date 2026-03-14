@@ -15,7 +15,7 @@
 Python 3.12+ | OpenCV | Tesseract | Moonshot AI | Streamlit | Plotly
 
 ## 快速开始
-```bash
+
 # 1. 安装依赖
 pip install -r requirements.txt
 
