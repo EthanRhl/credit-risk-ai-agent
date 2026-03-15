@@ -53,7 +53,7 @@ streamlit run app.py
 
 ### 测试数据集
 - 样本数量：50个（模拟数据，用于演示）
-- 风险分布：HIGH 15个，MEDIUM 20个，LOW 15个
+- 风险分布：HIGH 5个，MEDIUM 15个，LOW 30个
 - 数据生成：`python scripts/generate_test_data.py`
 
 ### 评估指标
