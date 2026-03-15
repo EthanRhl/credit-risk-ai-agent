@@ -26,14 +26,14 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## 项目结构
-├── app.py              # 主应用 |
-├── config.py           # 配置文件 |
-├── modules/            # 功能模块 |
-│   ├── ocr_engine.py   # OCR 识别 |
-│   ├── asr_engine.py   # 语音识别 |
-│   ├── llm_agent.py    # 大模型决策 |
-│   └── report_gen.py   # 报告生成 |
-└── assets/             # 测试素材 |
+├── app.py              # 主应用
+├── config.py           # 配置文件
+├── modules/            # 功能模块
+│   ├── ocr_engine.py   # OCR 识别
+│   ├── asr_engine.py   # 语音识别
+│   ├── llm_agent.py    # 大模型决策
+│   └── report_gen.py   # 报告生成
+└── assets/             # 测试素材
 
 ## 核心功能
 - **OCR 优化**: 灰度化 + CLAHE 增强 + 形近字校正，识别准确率 85%+
