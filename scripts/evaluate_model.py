@@ -1,8 +1,3 @@
-# scripts/evaluate_model.py
-"""
-模型效果评估脚本
-对比大模型预测结果与真实标签
-"""
 import json
 import os
 import sys
