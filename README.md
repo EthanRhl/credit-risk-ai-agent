@@ -26,14 +26,14 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## 项目结构
-├── app.py              # 主应用
-├── config.py           # 配置文件
-├── modules/            # 功能模块
-│   ├── ocr_engine.py   # OCR 识别
-│   ├── asr_engine.py   # 语音识别
-│   ├── llm_agent.py    # 大模型决策
-│   └── report_gen.py   # 报告生成
-└── assets/             # 测试素材
+├── app.py              # 主应用 |
+├── config.py           # 配置文件 |
+├── modules/            # 功能模块 |
+│   ├── ocr_engine.py   # OCR 识别 |
+│   ├── asr_engine.py   # 语音识别 |
+│   ├── llm_agent.py    # 大模型决策 |
+│   └── report_gen.py   # 报告生成 |
+└── assets/             # 测试素材 |
 
 ## 核心功能
 - **OCR 优化**: 灰度化 + CLAHE 增强 + 形近字校正，识别准确率 85%+
@@ -63,7 +63,7 @@ streamlit run app.py
 | 决策建议准确率 | 16.0% |
 | 评分可接受率 | 26.0% |
 | 平均评分误差 | 24.8 |
-| API成本估算：约 ¥0.50 |
+| API成本估算 | ¥0.50 |
 
 ### 运行评估
 - python scripts/evaluate_model.py
